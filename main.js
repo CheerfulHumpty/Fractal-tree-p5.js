@@ -34,15 +34,15 @@
            pop()
            push()
            rotate(-angle)
-           branch(len*0.67,weight*0.37)
+           branch(len*0.67,weight*0.67)
            pop()
            push()
            rotate(angle/2)
-           branch(len*0.67,weight*0.9)
+           branch(len*0.67,weight*0.67)
            pop()
            push()
            rotate(angle/6)
-           branch(len*0.67,weight*0.57)
+           branch(len*0.67,weight*0.43)
            pop()
            }
         }
